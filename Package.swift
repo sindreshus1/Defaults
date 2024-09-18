@@ -57,14 +57,14 @@ let package = Package(
 				"DefaultsMacros",
 				"DefaultsMacrosDeclarations",
 				.product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
-				.product(name: "SwiftSyntaxMacrosTestSupport", package: "swift-syntax"),
+				.product(name: "SwiftSyntaxMacrosTestSupport", package: "swift-syntax")
 			]
 		),
 		.testTarget(
 			name: "DefaultsMacrosTests",
 			dependencies: [
 				"Defaults",
-				"DefaultsMacros",
+				"DefaultsMacros"
 			]
 		)
 	]
